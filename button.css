@@ -1,0 +1,16 @@
+button{
+    display: flex;
+    background-color: black;
+    border: 2px solid #FF00E4;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-family: "Inter", sans-serif; /* Define a fonte */
+    font-weight: 500;
+}
+
+button:hover{
+    transform: scale(1.05);
+}

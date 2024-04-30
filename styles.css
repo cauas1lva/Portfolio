@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: black;
+    color: #FF00E4;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-principal, .experiencia {
+    color: white;
+}
+
+#siga-me {
+    color: #FF00E4;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    gap: 8rem;
+    color: #FF00E4;
+    align-items: center;
+    height: 40px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-explicativo {
+    border-color: rgb(52, 4, 97);
+    display: flex;
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: justify;
+    align-items: center;
+    padding: 0;
+}
+
+.resumo-e-foto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.resumo-e-foto > div > img {
+    width: 350px;
+    height: 350px;
+    border-radius: 13px;
+    box-shadow: 10px 10px 0px 0px #FF00E4;
+}
+
+
+.experiencia {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    height: 300px;
+    width: 500px;
+}
+
+#main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 10px
+}
+
+#me-siga {
+    height: 70px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#me-siga-btn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin:0
+}
+
+
+.botoes {
+    display: flex;
+    border: 0;
+    margin: 0;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 70px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid #FF00E4;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-family: "Inter", sans-serif; /* Define a fonte */
+    font-weight: 500;
+    gap: 5px;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+button a{
+    color: inherit;
+    text-decoration: none;
+}
+.logo {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* Espaçamento entre o logo e o texto */
+}
+
+.nome {
+    font-size: 16px; /* Tamanho da fonte do nome */
+}
